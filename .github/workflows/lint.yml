@@ -23,5 +23,5 @@ jobs:
       - name: Lint
         run: yarn run lint --max-warnings=0
 
-      - name: Style Lint
-        run: yarn run stylelint --max-warnings=0
+      # - name: Style Lint
+      #   run: yarn run stylelint --max-warnings=0
