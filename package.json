@@ -34,7 +34,7 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "@babel/core": "7.22.17",
+    "@babel/core": "7.22.19",
     "@trivago/prettier-plugin-sort-imports": "4.2.0",
     "@types/node": "18.17.15",
     "@types/react": "18.2.21",
