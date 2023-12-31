@@ -8,8 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "lint:fix": "next lint --fix",
-    "stylelint": "stylelint --ignore-path .gitignore ./src/**/*.{css,scss}",
-    "stylelint:fix": "stylelint --ignore-path .gitignore ./src/**/*.{css,scss} --fix",
+    "stylelint": "stylelint src/**/*.css",
+    "stylelint:fix": "stylelint --fix src/**/*.css",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "prepare": "husky install"
@@ -19,7 +19,7 @@
       "yarn lint:fix",
       "yarn format"
     ],
-    "src/**/*.{css,sass,scss}": [
+    "src/**/*.css": [
       "yarn stylelint:fix",
       "yarn format"
     ]
