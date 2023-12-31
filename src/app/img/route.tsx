@@ -1,4 +1,4 @@
-import { ImageResponse } from "next/server";
+import { ImageResponse } from "next/og";
 import { OGImage } from "~/components/ogImage";
 import { loadGoogleFont } from "~/libs/font";
 
