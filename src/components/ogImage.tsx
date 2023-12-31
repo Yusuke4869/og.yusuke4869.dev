@@ -64,14 +64,15 @@ export const OGImage = ({
           gap: "10px",
         }}
       >
+        {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
+          alt="icon"
+          height={60}
+          src="https://github.com/yusuke4869.png"
           style={{
             borderRadius: "100%",
           }}
-          src="https://github.com/yusuke4869.png"
           width={60}
-          height={60}
-          alt="icon"
         />
         <span
           style={{

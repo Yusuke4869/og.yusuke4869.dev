@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 import type { Metadata, NextPage } from "next";
 
 export const metadata: Metadata = {
@@ -12,13 +14,13 @@ const Home: NextPage = () => (
       justifyContent: "center",
     }}
   >
-    <img
+    <Image
+      alt="Hello, World!"
+      src="/img"
       style={{
         maxWidth: "100%",
         margin: 32,
       }}
-      src="/img"
-      alt="Hello, World!"
     />
   </div>
 );

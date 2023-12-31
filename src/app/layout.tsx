@@ -1,8 +1,8 @@
 import type { FC, ReactNode } from "react";
 
-type Props = {
+interface Props {
   children: ReactNode;
-};
+}
 
 const Layout: FC<Props> = ({ children }) => (
   <html lang="ja">

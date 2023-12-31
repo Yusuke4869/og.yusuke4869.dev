@@ -1,4 +1,5 @@
 import { ImageResponse } from "next/og";
+
 import { OGImage } from "~/components/ogImage";
 import { loadGoogleFont } from "~/libs/font";
 
@@ -16,7 +17,7 @@ export const GET = async (request: Request) => {
   const bgUrl = searchParams.get("bg");
   const color = searchParams.get("color");
 
-  return new ImageResponse(<OGImage title={title} bgUrl={bgUrl} color={color} />, {
+  return new ImageResponse(<OGImage bgUrl={bgUrl} color={color} title={title} />, {
     width: 1200,
     height: 630,
     fonts: [
