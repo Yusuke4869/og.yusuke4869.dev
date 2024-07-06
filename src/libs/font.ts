@@ -1,6 +1,6 @@
 export const loadGoogleFont = async ({ family, weight, text }: { family: string; weight?: number; text?: string }) => {
   const params = new URLSearchParams({
-    family: `${family}${weight ? `:wght@${weight}` : ""}`,
+    family: `${family}${weight ? `:wght@${weight.toString()}` : ""}`,
   });
 
   if (text) params.append("text", text);
