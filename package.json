@@ -29,7 +29,7 @@
     "node": "20.18.3"
   },
   "dependencies": {
-    "budoux": "^0.6.2",
+    "budoux": "^0.7.0",
     "next": "14.2.24",
     "react": "18.3.1",
     "react-dom": "18.3.1"
