@@ -391,29 +391,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:20.19.9":
-  version: 20.19.9
-  resolution: "@types/node@npm:20.19.9"
+"@types/node@npm:22.17.0":
+  version: 22.17.0
+  resolution: "@types/node@npm:22.17.0"
   dependencies:
     undici-types: "npm:~6.21.0"
-  checksum: 10c0/c6738131f1698258a5ac1e0185e4fc56977f7f566cd0ee11167f93f2339478470257bd82c5e1908a936a204e0ad7996d741356a1a07c04997a236161ea23a874
+  checksum: 10c0/e1c603b660d3de3243dfc02ded5d40623ff3f36315ffbdd8cdc81bc2c5a8da172035879d437b72e9fa61ca01827f28e9c2b0c32898f411a8e9ba0a5efac0b4ca
   languageName: node
   linkType: hard
 
-"@types/prop-types@npm:*":
-  version: 15.7.5
-  resolution: "@types/prop-types@npm:15.7.5"
-  checksum: 10c0/648aae41423821c61c83823ae36116c8d0f68258f8b609bdbc257752dcd616438d6343d554262aa9a7edaee5a19aca2e028a74fa2d0f40fffaf2816bc7056857
-  languageName: node
-  linkType: hard
-
-"@types/react@npm:18.3.23":
-  version: 18.3.23
-  resolution: "@types/react@npm:18.3.23"
+"@types/react@npm:19.1.9":
+  version: 19.1.9
+  resolution: "@types/react@npm:19.1.9"
   dependencies:
-    "@types/prop-types": "npm:*"
     csstype: "npm:^3.0.2"
-  checksum: 10c0/49331800b76572eb2992a5c44801dbf8c612a5f99c8f4e4200f06c7de6f3a6e9455c661784a6c5469df96fa45622cb4a9d0982c44e6a0d5719be5f2ef1f545ed
+  checksum: 10c0/b418da4aaf18fbc6df4f1b7096dda7ee152d697cac00d729ffd855b2b44a3a9cfb2ecb017ed20979ea3a7d98a5ce5fcf01ac1a3614d4a3e4d7069a0c45e49b0f
   languageName: node
   linkType: hard
 
@@ -4504,8 +4496,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "og@workspace:."
   dependencies:
-    "@types/node": "npm:20.19.9"
-    "@types/react": "npm:18.3.23"
+    "@types/node": "npm:22.17.0"
+    "@types/react": "npm:19.1.9"
     "@typescript-eslint/eslint-plugin": "npm:^7.0.0"
     budoux: "npm:^0.7.0"
     eslint: "npm:^8.56.0"
