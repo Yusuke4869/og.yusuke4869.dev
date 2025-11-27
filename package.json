@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "budoux": "^0.7.0",
-    "next": "14.2.33",
+    "next": "16.0.5",
     "react": "19.2.0",
     "react-dom": "19.2.0"
   },
@@ -39,7 +39,7 @@
     "@types/react": "18.3.27",
     "@typescript-eslint/eslint-plugin": "^7.0.0",
     "eslint": "^8.56.0",
-    "eslint-config-next": "^14.0.4",
+    "eslint-config-next": "^16.0.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-import-resolver-typescript": "^3.6.1",
     "eslint-plugin-import": "^2.29.1",
