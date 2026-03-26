@@ -8,47 +8,26 @@
     "start": "next start",
     "lint": "next lint",
     "lint:fix": "next lint --fix",
-    "stylelint": "stylelint src/**/*.css",
-    "stylelint:fix": "stylelint --fix src/**/*.css",
     "format": "prettier --write .",
-    "format:check": "prettier --check .",
-    "prepare": "husky install"
+    "format:check": "prettier --check ."
   },
-  "lint-staged": {
-    "src/**/*.{js,jsx,ts,tsx}": [
-      "yarn lint:fix",
-      "yarn format"
-    ],
-    "src/**/*.css": [
-      "yarn stylelint:fix",
-      "yarn format"
-    ]
-  },
-  "packageManager": "yarn@4.12.0",
-  "volta": {
-    "node": "22.21.1"
-  },
+  "packageManager": "pnpm@10.33.0+sha512.10568bb4a6afb58c9eb3630da90cc9516417abebd3fabbe6739f0ae795728da1491e9db5a544c76ad8eb7570f5c4bb3d6c637b2cb41bfdcdb47fa823c8649319",
   "dependencies": {
     "budoux": "^0.8.0",
-    "next": "14.2.33",
-    "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "next": "^14.2.33",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
   },
   "devDependencies": {
-    "@types/node": "20.19.37",
-    "@types/react": "18.3.28",
+    "@types/node": "^20.19.37",
+    "@types/react": "^18.3.28",
     "@typescript-eslint/eslint-plugin": "^7.0.0",
     "eslint": "^8.56.0",
     "eslint-config-next": "^14.0.4",
     "eslint-config-prettier": "^9.1.0",
     "eslint-import-resolver-typescript": "^3.6.1",
     "eslint-plugin-import": "^2.29.1",
-    "husky": "9.1.7",
-    "lint-staged": "15.5.2",
-    "prettier": "3.6.2",
-    "stylelint": "^16.1.0",
-    "stylelint-config-standard": "^36.0.0",
-    "stylelint-prettier": "^5.0.0",
-    "typescript": "5.9.3"
+    "prettier": "^3.6.2",
+    "typescript": "^5.9.3"
   }
 }
