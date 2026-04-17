@@ -26,7 +26,7 @@
   },
   "packageManager": "yarn@4.12.0",
   "volta": {
-    "node": "22.21.1"
+    "node": "22.22.2"
   },
   "dependencies": {
     "budoux": "^0.8.0",
