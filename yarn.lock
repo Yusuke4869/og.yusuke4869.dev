@@ -1217,15 +1217,15 @@ __metadata:
   linkType: hard
 
 "budoux@npm:^0.8.0":
-  version: 0.8.1
-  resolution: "budoux@npm:0.8.1"
+  version: 0.8.2
+  resolution: "budoux@npm:0.8.2"
   dependencies:
     commander: "npm:^14.0.0"
     google-artifactregistry-auth: "npm:^3.5.0"
     linkedom: "npm:^0.18.7"
   bin:
     budoux: bin/budoux.js
-  checksum: 10c0/42063e25a1dfa00680771d1fe528dfbd29a2d04e080d6fbd62be3fd3dadd33c6b76a0a2c6938095467c5625a579f12df166658052ee51a94df1d64e3bd8b635f
+  checksum: 10c0/9e7adb04117928c8d5b9af5c18a13f80189b37b150f783cba8f4f70e69f36ea013450deafa413a43fa26ba528a658039f07acf4ba8e4cb0344c6511afc2871fa
   languageName: node
   linkType: hard
 
